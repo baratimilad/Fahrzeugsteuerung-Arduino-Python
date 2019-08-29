@@ -1,0 +1,30 @@
+In diser Textdatei werden die erfolgreichen Fälle abgedeckt.
+
+Die App die verwendet wird, heißt Dabble und kann in Play Store heruntergeladen werden.
+Wir haben uns für diese App entschieden, da diese sogar eigene Arduino Bibliotheken enthält.
+Die App ist vielfältig und besitzt neben der Steuerung noch einen Terminal.
+Der Vorteil dieser App ist, dass wenn man auf einen Knopf auf dem Handy drückt, dass dieser
+Knopf auch noch aktiviert ist solange der Finger noch drauf ist. -> Komisch ausgedrückt aber sie verstehen mich sicherlich ;)
+
+Da dieser Sketch nur mit dieser App funktioniert, kommt somit keine andere App mehr in Frage.
+Dabble verschickt nämlich keine einzlenen ASCII Zeichen sondern schcikt einen ganzen Datenpaket.
+Dieses Datenpaket wird von uns abgefangen und ausgewertet und auf unser Vorgehen angefasst.
+Sollte eine andere App statt Dabble für dieses Projekt in Betracht gezogen werden, so
+muss das ganze Programm umgeschrieben werden. 
+
+
+Bisher erolgreich waren: - Ansteuerung des Servos
+						 - Ansteuerung des Motors sowohl vorwärts als auch ruckwärts
+						 - Die Geschwindigkeit des Motors kann variiert werden.
+
+Bevorstehende Fälle:	 - Kalibrierung 
+						 - Vollständige Umsetzung des Python Skripts mit dem Arduino
+						 - Geschwindigkeitsveränderung durch die entsprechende Anzahl der Betätigungen eines Knopfes.
+						 
+Jede Woche wird diese Textdatei aktualisiert, damit Herr Sommer und Herr Schillhuber auf den 
+neusten Stand sind.
+
+Wir bitten Herr Schillhuber, dass er uns für das nächste Treffen die erforderlichen Formeln für die Lenkung erläutert.
+						 
+						 
+						 

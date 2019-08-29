@@ -1,0 +1,3 @@
+In diesem Python Skript wird die Verbindung zwischen Arduino und dem Rechner hergestell.
+Das Skript funktioniert auch schon. Man kann inzwischen Daten über Python an die serielle
+Schnittstelle senden. Das entsprechende ASCII Zeichen wird dann von dem Arduino Sketch interpretiert.
